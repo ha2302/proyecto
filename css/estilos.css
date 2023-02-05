@@ -1,0 +1,485 @@
+/* index */
+
+.bodyindex {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: auto; 
+  background-position-y: auto; 
+}
+
+#espacio {
+  width: 300px;
+  height: 300px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 150px auto;
+  padding: 10px;
+}
+
+.iniciar{
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -1px;
+}
+
+.usuario, .contra, .nombre {
+  width: 100%;
+  color: #FFFFFF;
+  background-color: transparent;
+  margin-bottom: 5px;
+  padding: 15px 120px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 21px;
+}
+
+.btn {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 15px 120px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 21px;
+}
+
+.btn:hover{
+  background-color: #000000;
+}
+
+.registrar {
+  color: #FFFFFF;
+  background-color: transparent;
+  width: 244px;
+  margin: 1px -20px;
+  border-radius: 21px;
+  padding: 20px 50px;
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+}
+
+.texto a {
+  text-decoration: none;
+  color: #3897f0;
+}
+
+/* registrar */
+
+.bodyregistrar {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: auto; 
+  background-position-y: auto; 
+}
+
+.registrarse{
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -1px;
+}
+
+/* Menu Administrador */
+
+.bodyadmin {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: auto; 
+  background-position-y: auto; 
+}
+
+.bienvenida{
+  
+  margin: 50px auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.menu{
+  color: #ffffff;
+  width: 244px;
+  text-align: center;
+  margin: 50px auto;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 21px;
+  padding: 26px 50px;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+}
+
+.btnmenu{  
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 15px 10px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 21px;
+}
+
+.btnmenu:hover{
+  background-color: #000000;
+}
+
+.cerrars a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* incorrecto */
+
+.bodyincorrecto{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  background-position-x: auto; 
+  background-position-y: auto; 
+}
+
+.textoincorrecto{
+  color: #FFFFFF;
+  font-size:xx-large;
+  text-align: center;
+}
+
+.textointentar {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-size:large;
+}
+
+.textointentar a {
+  text-decoration: none;
+  color: #3897f0;
+}
+
+/* error */
+
+.bodyerror{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  background-position-x: auto; 
+  background-position-y: auto; 
+}
+
+.textoerror{
+  color: #FFFFFF;
+  font-size:xx-large;
+  text-align: center;
+}
+
+.textointentar {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-size:large;
+}
+
+.textointentar a {
+  text-decoration: none;
+  color: #3897f0;
+}
+
+/* Crea N Cuenta */
+
+.bodycnc{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: auto; 
+  background-position-y: auto; 
+}
+
+.lista{
+  font-family: 'Arial', sans-serif;
+  color: rgb(0, 0, 0);
+  width: 100px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: .30em;
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .65em auto, 100%;
+}
+
+.CNC{
+  color: #FFFFFF;
+  width: 307px;
+  text-align: center;
+  margin: 0px auto;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 21px;
+  padding: 40px 50px;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;  
+}
+
+/* inicio usuario */
+
+.bodyinicio{
+  background: #000000;
+}
+
+.ima{
+  width: 245px;
+  height: 300px;
+}
+
+.buscarj{
+  height: 3px;
+  margin: 15px 0px;
+  padding: 1px;
+}
+
+.btnbuscar{
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px 1px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 21px;
+}
+  
+.btnbuscar:hover{
+  background-color: #272829;
+}
+
+.buscar{
+  width: 164px;
+  color: #FFFFFF;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 21px;
+}
+
+.cerrarb{
+  background-color: transparent;
+  cursor: pointer;  
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 21px;
+  position:FIXED;
+  top:13px;
+  left:1200px;
+  padding: 10px 20px;
+}
+
+.cerrarb:hover{
+  background-color: #272829;
+}
+
+/* comprar */
+
+.bodycomprar{
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.imagencompra{
+  width: 400px;
+  height: 455px;
+}
+
+.nombrejuego{
+  color: #FFFFFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.descripcion{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 390px;
+  height: 1px;;
+  margin: 1px 460px;
+  font-size: 17px;
+}
+
+.especificaciones{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  width: 159px;
+  height: 1px;;
+  margin: -460px 960px;
+}
+
+.botones{
+  margin: 880px 400px;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 21px;
+}
+
+.btn1{
+  margin: 10px;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 21px;
+}
+
+.btn1:hover{
+  color: #272829;
+}
+
+.btn2{
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 21px;
+}
+
+.btn2:hover{
+  color: #272829;
+}
+
+/* factura */
+
+.bodyfactura{
+  font-family: tahoma;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.fact{
+  background-color: #ebebeb;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  border: 3px solid #d4d4d4;
+  border-radius: 1px;
+  margin:75px auto;
+  padding: 10px;
+}
+
+.hola{
+  font-family: tahoma;
+  font-weight: 900;
+}
+
+.factblanco{
+  background-color: #ffffff;
+  font-family: tahoma;
+  font-size: smaller;
+}
+
+.imprime{
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 21px;
+  width: 159px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.imprime:hover{
+  color: #ffffff;
+  background-color: #272829;
+}
+
+.acepta{
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 21px;
+  width: 159px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.acepta:hover{
+  color: #ffffff;
+  background-color: #272829;
+}
+
+/* modificar */
+
+.bodymodificar{
+  background-color: #000000;
+  color: #d4d4d4;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: auto; 
+  background-position-y: auto; 
+  
+}
+
+.tabla{
+  text-align: center;
+  width: 900px;
+  height: auto;
+  border: px solid #d4d4d4;
+  margin:7px auto;
+}
+
+/* actualizar */
+
+.bodyactua{
+  background-color: #000000;
+  color: #d4d4d4;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: auto; 
+  background-position-y: auto; 
+}  
+
+#actua {
+  width: 300px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+/* ingresar juegos */
+
+.bodyingresarj{
+  background-color: #000000;
+  color: #d4d4d4;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: auto; 
+  background-position-y: auto; 
+}
+
+.ingresa {
+  border: 1px solid #d4d4d4;
+  border-radius: 21px;
+  width: 300px;
+  margin: 30px auto;
+  padding: 40px;
+}
+
+/* modifica juegos */
+
+.bodymod{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.imag{
+  width: 145px;
+  height: 200px;
+}
