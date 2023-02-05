@@ -1,4 +1,4 @@
-https://johndoe.github.io/my-website/
+https://ha2302.github.io/proyecto/
 <!DOCTYPE html>
 <html>
 <head>
